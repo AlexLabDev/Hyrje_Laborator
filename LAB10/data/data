@@ -1,0 +1,43 @@
+# data.py
+# Shifrat e mia të ruajtura për raportin
+
+results = {
+    "Eksperimenti 1": {
+        "T_mean": 0.0123,
+        "T_std": 0.0011,
+        "T_min": 0.0102,
+        "T_max": 0.0156,
+        "CV": 0.089
+    },
+    "Eksperimenti 2": {
+        "N=100":   {"T_mean": 0.00005, "T_std": 0.00002, "CV": 0.40},
+        "N=1000":  {"T_mean": 0.0004,  "T_std": 0.00005, "CV": 0.12},
+        "N=10000": {"T_mean": 0.0041,  "T_std": 0.0002,  "CV": 0.05},
+        "N=100000":{"T_mean": 0.041,   "T_std": 0.001,   "CV": 0.024},
+        "N=1000000":{"T_mean": 0.41,   "T_std": 0.005,   "CV": 0.012}
+    },
+    "Eksperimenti 3": {
+        "Python": {"T_mean": 0.52, "T_std": 0.01, "CV": 0.019},
+        "NumPy":  {"T_mean": 0.012, "T_std": 0.0003, "CV": 0.025}
+    },
+    "Eksperimenti 4": {
+        "Brenda": {"T_mean": 0.15, "T_std": 0.005, "CV": 0.033},
+        "Jashtë": {"T_mean": 0.012, "T_std": 0.0004, "CV": 0.033}
+    },
+    "Eksperimenti 5": {
+        "Sekuenciale": {"T_mean": 0.09, "T_std": 0.002, "CV": 0.022},
+        "Rastësore":  {"T_mean": 0.14, "T_std": 0.004, "CV": 0.028}
+    },
+    "Eksperimenti 6": {
+        "Pa ngarkesë": {"T_mean": 0.21, "T_std": 0.003, "CV": 0.014},
+        "Me ngarkesë": {"T_mean": 0.28, "T_std": 0.012, "CV": 0.043}
+    },
+    "Eksperimenti 7": {
+        "Pa printim": {"T_mean": 0.004, "T_std": 0.0002, "CV": 0.05},
+        "Me printim": {"T_mean": 0.12, "T_std": 0.01, "CV": 0.083}
+    },
+    "Eksperimenti 8": {
+        "Trend": "Koha rritet gradualisht pas përsëritjeve për shkak të ngrohjes së CPU-së."
+    }
+}
+
